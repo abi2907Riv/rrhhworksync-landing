@@ -3,8 +3,12 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
-    extend: {},
+    theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Geist Variable', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
